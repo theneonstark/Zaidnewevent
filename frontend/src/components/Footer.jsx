@@ -60,8 +60,7 @@ const Footer = () => {
         <div className="text-center text-sm text-gray-400">
           <p className="text-gray-400 ">
           Powered By<a href="https://nikatby.com/" className="text-gray-400 hover:text-white"> Nikatby Group</a>
-          </p>
-          <p>H-169 , 1st Floor (up) Sector - 63, Noida Uttar Pradesh Pin-201301, <a href="tel:+91 9310842731">+91-931-0842731</a></p>
+          </p>  
         </div>
       </div>
     </footer>
