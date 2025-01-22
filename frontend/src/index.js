@@ -14,7 +14,7 @@ root.render(
 // Disable right-click
 document.addEventListener('contextmenu', (e) => {
   e.preventDefault();
-  alert('Right-click is disabled on this page.');
+  // alert('Right-click is disabled on this page.');
 });
 
 // Disable certain key combinations
@@ -25,7 +25,7 @@ document.addEventListener('keydown', (e) => {
     (e.key === 'F12') // F12
   ) {
     e.preventDefault();
-    alert('This action is disabled.');
+    // alert('This action is disabled.');
   }
 });
 
@@ -68,21 +68,21 @@ document.addEventListener('keydown', (e) => {
 // Disable double-click
 document.addEventListener('dblclick', (e) => {
   e.preventDefault();
-  alert('Double-click is disabled.');
+  // alert('Double-click is disabled.');
 });
 
 // Disable image dragging
 document.addEventListener('dragstart', (e) => {
   if (e.target.tagName === 'IMG') {
     e.preventDefault();
-    alert('Image dragging is disabled.');
+    // alert('Image dragging is disabled.');
   }
 });
 
 // Disable text selection
 document.addEventListener('selectstart', (e) => {
   e.preventDefault();
-  alert('Text selection is disabled.');
+  // alert('Text selection is disabled.');
 });
 
 
